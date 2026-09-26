@@ -42,8 +42,9 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", () => {
     const header = document.querySelector(".header");
 
-    // Check if the current route is the home page
-    if (window.location.pathname === "/") {
+    // Check if this is the home page (only it has the hero slider), so it
+    // works at a domain root or under a subpath like /agn-current-site/
+    if (document.querySelector(".hero")) {
         header.style.backgroundColor = "";
     } else {
         header.style.backgroundColor = "var(--white-color)";

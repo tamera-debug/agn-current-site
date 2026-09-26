@@ -12,8 +12,10 @@ A static HTML snapshot of alignedglobalnetwork.com, scraped from the original La
 
 ## Target
 - Homepage at the root `index.html`.
-- One shared assets folder, with all pages referencing it by root-relative paths.
+- One shared assets folder, `site/assets/`.
+- All paths relative, never root-relative (`assets/...` from the homepage, `../assets/...` and `../service/` from pages one level down), so the site works both at tamera-debug.github.io/agn-current-site/ and at the root of a domain. Don't reintroduce `/`-prefixed paths.
 - Clean URLs that match the live site (folder `service/index.html` serves `/service`, and so on).
+- Deployed to GitHub Pages by `.github/workflows/deploy-pages.yml` on push to main.
 - No references to alignedglobalnetwork.com for assets, no Laravel/server-side leftovers, and no GoDaddy tracking script.
 - Donate page and every link to it removed.
 - Contact form replaced by an embedded Google Form. The form URL is a marked placeholder (`GOOGLE_FORM_EMBED_URL`) until the owner provides it.
