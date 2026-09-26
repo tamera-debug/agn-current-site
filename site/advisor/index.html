@@ -16,15 +16,15 @@
 
     <!-- Template Main Css Start -->
 
-    <link rel="stylesheet" href="https://alignedglobalnetwork.com/assets/frontend/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/assets/frontend/css/bootstrap.min.css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-    <link href="https://alignedglobalnetwork.com/assets/frontend/css/global.css" rel="stylesheet">
-    <link href="https://alignedglobalnetwork.com/assets/frontend/css/style.css" rel="stylesheet">
-    <link href="https://alignedglobalnetwork.com/assets/frontend/css/responsive.css" rel="stylesheet">
-    <link rel="shortcut icon" href=" https://alignedglobalnetwork.com/assets/frontend/images/favicon.png" type="image/x-icon" />
+    <link href="/assets/frontend/css/global.css" rel="stylesheet">
+    <link href="/assets/frontend/css/style.css" rel="stylesheet">
+    <link href="/assets/frontend/css/responsive.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/assets/frontend/images/favicon.png" type="image/x-icon" />
     <!-- iziToast Css -->
-    <link href="https://alignedglobalnetwork.com/css/iziToast.css" rel="stylesheet">
+    <link href="/assets/css/iziToast.css" rel="stylesheet">
     <!-- Other Page Css -->
     
 <script type="text/javascript" class="flasher-js">(function() {    var rootScript = 'https://cdn.jsdelivr.net/npm/@flasher/flasher@1.3.2/dist/flasher.min.js';    var FLASHER_FLASH_BAG_PLACE_HOLDER = {};    var options = mergeOptions([], FLASHER_FLASH_BAG_PLACE_HOLDER);    function mergeOptions(first, second) {        return {            context: merge(first.context || {}, second.context || {}),            envelopes: merge(first.envelopes || [], second.envelopes || []),            options: merge(first.options || {}, second.options || {}),            scripts: merge(first.scripts || [], second.scripts || []),            styles: merge(first.styles || [], second.styles || []),        };    }    function merge(first, second) {        if (Array.isArray(first) && Array.isArray(second)) {            return first.concat(second).filter(function(item, index, array) {                return array.indexOf(item) === index;            });        }        return Object.assign({}, first, second);    }    function renderOptions(options) {        if(!window.hasOwnProperty('flasher')) {            console.error('Flasher is not loaded');            return;        }        requestAnimationFrame(function () {            window.flasher.render(options);        });    }    function render(options) {        if ('loading' !== document.readyState) {            renderOptions(options);            return;        }        document.addEventListener('DOMContentLoaded', function() {            renderOptions(options);        });    }    if (1 === document.querySelectorAll('script.flasher-js').length) {        document.addEventListener('flasher:render', function (event) {            render(event.detail);        });        document.addEventListener('livewire:navigating', function () {    var elements = document.querySelectorAll('.fl-no-cache');    for (var i = 0; i < elements.length; i++) {        elements[i].remove();    }});    }    if (window.hasOwnProperty('flasher') || !rootScript || document.querySelector('script[src="' + rootScript + '"]')) {        render(options);    } else {        var tag = document.createElement('script');        tag.setAttribute('src', rootScript);        tag.setAttribute('type', 'text/javascript');        tag.onload = function () {            render(options);        };        document.head.appendChild(tag);    }})();</script>
@@ -37,25 +37,25 @@
     <header class="header">
         <div class="container">
             <div class="header-wrapper">
-                <a href=https://alignedglobalnetwork.com class="header-logo">
-                    <img src="https://alignedglobalnetwork.com/assets/frontend/images/logo.png" alt="" />
+                <a href="/" class="header-logo">
+                    <img src="/assets/frontend/images/logo.png" alt="" />
                 </a>
                 <div class="header-content">
                     <div class="header-menu">
-                        <img src="https://alignedglobalnetwork.com/assets/frontend/images/menu.png" alt="" />
+                        <img src="/assets/frontend/images/menu.png" alt="" />
                     </div>
                     <ul class="header-nav-lists">
                         <li>
-                            <a href=https://alignedglobalnetwork.com>Home</a>
+                            <a href="/">Home</a>
                         </li>
                         <li>
                             <div class="header-dropdown">
-                                <a href="https://alignedglobalnetwork.com/service" aria-haspopup="true" aria-expanded="false">Our
+                                <a href="/service" aria-haspopup="true" aria-expanded="false">Our
                                     Services</a>
                             </div>
                         </li>
                         <li>
-                            <a href="https://alignedglobalnetwork.com/advisor" aria-haspopup="true" aria-expanded="false">Our Impact
+                            <a href="/advisor" aria-haspopup="true" aria-expanded="false">Our Impact
                                 Advisors</a>
                         </li>
                         <li>
@@ -65,13 +65,13 @@
                         <li>
                             <div class="header-dropdown">
                                 <div class="header-dropdown-item d-flex align-items-center gap-3">
-                                    <a href="https://alignedglobalnetwork.com/about" aria-haspopup="true" aria-expanded="false">About
+                                    <a href="/about" aria-haspopup="true" aria-expanded="false">About
                                         Us</a>
                                     <span><i class="fas fa-chevron-down"></i></span>
                                 </div>
                                 <ul class="header-dropdown-list-item">
                                     <li>
-                                        <a href="https://alignedglobalnetwork.com/about#team">leadership team</a>
+                                        <a href="/about#team">leadership team</a>
                                     </li>
                                 </ul>
                             </div>
@@ -82,7 +82,7 @@
                         <p>Let’s Connect!</p>
                     </a>
                     <div class="header-close">
-                        <img src="https://alignedglobalnetwork.com/assets/frontend/images/close.png" alt="" />
+                        <img src="/assets/frontend/images/close.png" alt="" />
                     </div>
                 </div>
             </div>
@@ -100,11 +100,11 @@
             <div class="team-card-items">
                                     <div class="team-card-item-advisory">
                         <div class="team-logo">
-                            <img src="https://alignedglobalnetwork.com/uploads/team/1747825600_dsd.webp" alt="Aligned Global Network" />
+                            <img src="/assets/uploads/team/1747825600_dsd.webp" alt="Aligned Global Network" />
                         </div>
                         <div class="team-content-advisory">
                             <div class="team-details">
-                                <img src="https://alignedglobalnetwork.com/uploads/team/1747825600_8.webp" alt="Amanda Hill-Attkisson"
+                                <img src="/assets/uploads/team/1747825600_8.webp" alt="Amanda Hill-Attkisson"
                                     class="team-profile-pic" />
                                 <a href="#" class="team-name">Amanda Hill-Attkisson</a>
                                 <h4>Founder, Aligned Global Network; Strategic Planning, Change                   Management, Pilot to Scale Innovation</h4>
@@ -113,11 +113,11 @@
                     </div>
                                     <div class="team-card-item-advisory">
                         <div class="team-logo">
-                            <img src="https://alignedglobalnetwork.com/uploads/team/1747825761_gpallc_logo.webp" alt="Aligned Global Network" />
+                            <img src="/assets/uploads/team/1747825761_gpallc_logo.webp" alt="Aligned Global Network" />
                         </div>
                         <div class="team-content-advisory">
                             <div class="team-details">
-                                <img src="https://alignedglobalnetwork.com/uploads/team/1747825761_4.webp" alt="Amanda Hill-Attkisson"
+                                <img src="/assets/uploads/team/1747825761_4.webp" alt="Amanda Hill-Attkisson"
                                     class="team-profile-pic" />
                                 <a href="#" class="team-name">Jullanar Maalik-Naselli</a>
                                 <h4>Educational Consultant in Organizational and Performance Enablement</h4>
@@ -126,11 +126,11 @@
                     </div>
                                     <div class="team-card-item-advisory">
                         <div class="team-logo">
-                            <img src="https://alignedglobalnetwork.com/uploads/team/1747833404_9.webp" alt="Aligned Global Network" />
+                            <img src="/assets/uploads/team/1747833404_9.webp" alt="Aligned Global Network" />
                         </div>
                         <div class="team-content-advisory">
                             <div class="team-details">
-                                <img src="https://alignedglobalnetwork.com/uploads/team/1747833404_7.webp" alt="Amanda Hill-Attkisson"
+                                <img src="/assets/uploads/team/1747833404_7.webp" alt="Amanda Hill-Attkisson"
                                     class="team-profile-pic" />
                                 <a href="#" class="team-name">Sloane-co.com</a>
                                 <h4>Sloane Scott Chaos Pilot, Self-Pay Patient, Brand Architect</h4>
@@ -139,11 +139,11 @@
                     </div>
                                     <div class="team-card-item-advisory">
                         <div class="team-logo">
-                            <img src="https://alignedglobalnetwork.com/uploads/team/1747833482_5.webp" alt="Aligned Global Network" />
+                            <img src="/assets/uploads/team/1747833482_5.webp" alt="Aligned Global Network" />
                         </div>
                         <div class="team-content-advisory">
                             <div class="team-details">
-                                <img src="https://alignedglobalnetwork.com/uploads/team/1747833482_1.webp" alt="Amanda Hill-Attkisson"
+                                <img src="/assets/uploads/team/1747833482_1.webp" alt="Amanda Hill-Attkisson"
                                     class="team-profile-pic" />
                                 <a href="#" class="team-name">Tracy Gossett Stone</a>
                                 <h4>Leadership &amp; Career Accelerator</h4>
@@ -152,11 +152,11 @@
                     </div>
                                     <div class="team-card-item-advisory">
                         <div class="team-logo">
-                            <img src="https://alignedglobalnetwork.com/uploads/team/1747833534_4.webp" alt="Aligned Global Network" />
+                            <img src="/assets/uploads/team/1747833534_4.webp" alt="Aligned Global Network" />
                         </div>
                         <div class="team-content-advisory">
                             <div class="team-details">
-                                <img src="https://alignedglobalnetwork.com/uploads/team/1747833534_2.webp" alt="Amanda Hill-Attkisson"
+                                <img src="/assets/uploads/team/1747833534_2.webp" alt="Amanda Hill-Attkisson"
                                     class="team-profile-pic" />
                                 <a href="#" class="team-name">Kate Black</a>
                                 <h4>Founder of Pacesetter Strategies</h4>
@@ -177,11 +177,11 @@
             <div class="team-card-items technology-card-items">
                                     <div class="team-card-item-advisory">
                         <div class="team-logo">
-                            <img src="https://alignedglobalnetwork.com/uploads/team/1747826060_1.webp" alt="Aligned Global Network" />
+                            <img src="/assets/uploads/team/1747826060_1.webp" alt="Aligned Global Network" />
                         </div>
                         <div class="team-content-advisory">
                             <div class="team-details">
-                                <img src="https://alignedglobalnetwork.com/uploads/team/1747826060_6.webp" alt="Amanda Hill-Attkisson"
+                                <img src="/assets/uploads/team/1747826060_6.webp" alt="Amanda Hill-Attkisson"
                                     class="team-profile-pic" />
                                 <a href="#" class="team-name">Abril Vela</a>
                                 <h4>CO-Founder CS for Success | Advocating Access</h4>
@@ -190,11 +190,11 @@
                     </div>
                                     <div class="team-card-item-advisory">
                         <div class="team-logo">
-                            <img src="https://alignedglobalnetwork.com/uploads/team/1747826089_6.webp" alt="Aligned Global Network" />
+                            <img src="/assets/uploads/team/1747826089_6.webp" alt="Aligned Global Network" />
                         </div>
                         <div class="team-content-advisory">
                             <div class="team-details">
-                                <img src="https://alignedglobalnetwork.com/uploads/team/1747826089_3.webp" alt="Amanda Hill-Attkisson"
+                                <img src="/assets/uploads/team/1747826089_3.webp" alt="Amanda Hill-Attkisson"
                                     class="team-profile-pic" />
                                 <a href="#" class="team-name">Achia Nila</a>
                                 <h4>Founder, CEO at Women in digital | Ecosystem Builder</h4>
@@ -203,11 +203,11 @@
                     </div>
                                     <div class="team-card-item-advisory">
                         <div class="team-logo">
-                            <img src="https://alignedglobalnetwork.com/uploads/team/1747826131_10.webp" alt="Aligned Global Network" />
+                            <img src="/assets/uploads/team/1747826131_10.webp" alt="Aligned Global Network" />
                         </div>
                         <div class="team-content-advisory">
                             <div class="team-details">
-                                <img src="https://alignedglobalnetwork.com/" alt="Amanda Hill-Attkisson"
+                                <img src="/" alt="Amanda Hill-Attkisson"
                                     class="team-profile-pic" />
                                 <a href="#" class="team-name">Significantly Different Evaluation and Research</a>
                                 <h4>Evaluation and research, dedicated to generating clear, actionable insights through participatory and community-engaged methods.</h4>
@@ -227,7 +227,7 @@
             <div class="team-card-items">
                                     <div class="team-card-item-advisory">
                         <div class="team-logo">
-                            <img src="https://alignedglobalnetwork.com/uploads/team/1747826564_11.webp" alt="Aligned Global Network" />
+                            <img src="/assets/uploads/team/1747826564_11.webp" alt="Aligned Global Network" />
                         </div>
                         <div class="team-content-advisory">
                             <div class="team-details">
@@ -239,7 +239,7 @@
                     </div>
                                     <div class="team-card-item-advisory">
                         <div class="team-logo">
-                            <img src="https://alignedglobalnetwork.com/uploads/team/1747826583_logo-place.webp" alt="Aligned Global Network" />
+                            <img src="/assets/uploads/team/1747826583_logo-place.webp" alt="Aligned Global Network" />
                         </div>
                         <div class="team-content-advisory">
                             <div class="team-details">
@@ -251,7 +251,7 @@
                     </div>
                                     <div class="team-card-item-advisory">
                         <div class="team-logo">
-                            <img src="https://alignedglobalnetwork.com/uploads/team/1748144144_tol.webp" alt="Aligned Global Network" />
+                            <img src="/assets/uploads/team/1748144144_tol.webp" alt="Aligned Global Network" />
                         </div>
                         <div class="team-content-advisory">
                             <div class="team-details">
@@ -277,7 +277,7 @@
                      <div class="footer-left">
                          <div class="foot-logo-wrapper">
                              <div class="footer-img">
-                                 <a href="https://alignedglobalnetwork.com">
+                                 <a href="/">
                                      <img src="/assets/images/footer-logo.png" alt="" />
                                  </a>
                              </div>
@@ -312,25 +312,25 @@
                          <div class="footer-menu-item">
                              <ul>
                                  <li>
-                                     <a href="https://alignedglobalnetwork.com/advisor" class="mobile-fotter">Our Experts</a>
+                                     <a href="/advisor" class="mobile-fotter">Our Experts</a>
                                  </li>
                                  <li>
                                      <span>Our</span>
-                                     <a href="https://alignedglobalnetwork.com/service" class="mobile-fotter">Services</a>
+                                     <a href="/service" class="mobile-fotter">Services</a>
                                  </li>
                                  <li>
-                                     <a href="https://alignedglobalnetwork.com/about"class="mobile-fotter">About Us</a>
+                                     <a href="/about"class="mobile-fotter">About Us</a>
                                  </li>
                              </ul>
                          </div>
                          <div class="footer-menu-item">
                              <ul>
                                  <li>
-                                     <a href="https://alignedglobalnetwork.com/advisor#event">Event </a>
+                                     <a href="/advisor#event">Event </a>
                                      <span>Support</span>
                                  </li>
                                  <li><a href="/#contact">Help & Support </a></li>
-                                 <li><a href="https://alignedglobalnetwork.com/donate">Donate</a></li>
+                                 <li><a href="/donate">Donate</a></li>
                              </ul>
                          </div>
                      </div>
@@ -357,8 +357,8 @@
 
     <!-- Vendor JS Files -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    <script src="https://alignedglobalnetwork.com/assets/frontend/js/bootstrap.bundle.min.js"></script>
-    <script src="https://alignedglobalnetwork.com/assets/frontend/js/custom.js"></script>
+    <script src="/assets/frontend/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/frontend/js/custom.js"></script>
     
     </body>
 
